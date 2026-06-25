@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Tirth Patel</title>
+  <meta name="description" content="Learn more about Tirth Patel — full-stack developer, problem solver, lifelong learner." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+<div id="cursor-glow"></div>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Tirth<span>.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="social.html">Social</a></li>
+        <li class="nav-item ms-lg-2"><a class="nav-link btn-nav-cta" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="padding-top:70px;">
+
+  <div class="page-hero">
+    <div class="container">
+      <span class="section-label fade-up">Who I am</span>
+      <h1 class="hero-title fade-up delay-1">About <span class="gradient-text">Me</span></h1>
+      <p class="hero-desc fade-up delay-2" style="font-size:1rem;">Developer, problem solver, and builder with a passion for elegant code and real-world impact.</p>
+    </div>
+  </div>
+
+  <!-- ── Bio section ── -->
+  <section class="section-wrap">
+    <div class="container">
+      <div class="row gy-5 align-items-start">
+
+        <!-- Avatar + quick facts -->
+        <div class="col-lg-4 fade-left">
+          <div class="d-flex justify-content-center justify-content-lg-start mb-4">
+            <div class="about-avatar">👨‍💻</div>
+          </div>
+          <div class="d-flex flex-column gap-2">
+            <a href="mailto:tirthpatel0325@gmail.com" class="info-pill text-decoration-none">
+              <div class="pill-icon">✉️</div>
+              <div><div class="pill-label">Email</div><div class="pill-value">tirthpatel0325@gmail.com</div></div>
+            </a>
+            <div class="info-pill">
+              <div class="pill-icon">📍</div>
+              <div><div class="pill-label">Location</div><div class="pill-value">India</div></div>
+            </div>
+            <div class="info-pill">
+              <div class="pill-icon" style="color:#22c55e;">●</div>
+              <div><div class="pill-label">Status</div><div class="pill-value" style="color:#22c55e;">Open to work</div></div>
+            </div>
+            <a href="https://github.com/thepateltirth" class="info-pill text-decoration-none" target="_blank">
+              <div class="pill-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="var(--cyan)"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </div>
+              <div><div class="pill-label">GitHub</div><div class="pill-value">github.com/thepateltirth</div></div>
+            </a>
+            <a href="https://thepateltirth.com" class="info-pill text-decoration-none" target="_blank">
+              <div class="pill-icon">🌐</div>
+              <div><div class="pill-label">Website</div><div class="pill-value">thepateltirth.com</div></div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Bio text -->
+        <div class="col-lg-8 fade-right">
+          <h2 class="mb-4" style="font-size:1.9rem;font-weight:700;">Hey, I'm <span class="gradient-text">Tirth</span> 👋</h2>
+
+          <p style="color:var(--text-muted);line-height:1.8;margin-bottom:1rem;font-size:0.97rem;">
+            I'm a full-stack developer who loves building things that live on the internet — whether that's a seamless food ordering app or a deep learning model that reads human emotion. I enjoy the full journey from wireframe to deployed product.
+          </p>
+          <p style="color:var(--text-muted);line-height:1.8;margin-bottom:1rem;font-size:0.97rem;">
+            My journey started with curiosity about how websites work, which quickly expanded into backend systems, databases, and eventually machine learning. I'm comfortable on both sides of the stack and genuinely enjoy switching contexts between a React component and a Python model.
+          </p>
+          <p style="color:var(--text-muted);line-height:1.8;margin-bottom:2rem;font-size:0.97rem;">
+            I believe great software is clear, fast, and honest — it does what it says, works where it needs to, and doesn't make users think too hard. That philosophy shapes every project I take on.
+          </p>
+
+          <!-- Skill bars -->
+          <div class="skills-bar-section mb-4">
+            <h6 style="font-size:0.72rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-dim);margin-bottom:1.25rem;">Proficiency</h6>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-label"><span>JavaScript / React</span><span>90%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90%"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-label"><span>Node.js / Express</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85%"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-label"><span>Python / TensorFlow</span><span>80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80%"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-label"><span>MongoDB / SQL</span><span>78%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78%"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-label"><span>HTML / CSS</span><span>92%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92%"></div></div>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="projects.html" class="btn-cyan">View My Work</a>
+            <a href="contact.html" class="btn-ghost">Get in Touch →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="cyan-divider"></div>
+
+  <!-- ── What I bring ── -->
+  <section class="section-wrap">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-label fade-up">Strengths</span>
+        <h2 class="section-title fade-up delay-1">What I bring to the table</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3 fade-up">
+          <div class="glass-card p-4 h-100">
+            <div style="font-size:2rem;margin-bottom:0.75rem;">⚡</div>
+            <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.5rem;">Fast Learner</h3>
+            <p style="color:var(--text-muted);font-size:0.85rem;line-height:1.65;margin:0;">I pick up new technologies quickly and apply them to real projects without needing to see every tutorial first.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-up delay-1">
+          <div class="glass-card p-4 h-100">
+            <div style="font-size:2rem;margin-bottom:0.75rem;">🎯</div>
+            <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.5rem;">Product Minded</h3>
+            <p style="color:var(--text-muted);font-size:0.85rem;line-height:1.65;margin:0;">I think about the user, not just the code. Good UX and solid DX matter equally to me.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-up delay-2">
+          <div class="glass-card p-4 h-100">
+            <div style="font-size:2rem;margin-bottom:0.75rem;">🔍</div>
+            <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.5rem;">Detail Oriented</h3>
+            <p style="color:var(--text-muted);font-size:0.85rem;line-height:1.65;margin:0;">From pixel alignment to API response shapes — I care about the edges, not just the happy path.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-up delay-3">
+          <div class="glass-card p-4 h-100">
+            <div style="font-size:2rem;margin-bottom:0.75rem;">🤝</div>
+            <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.5rem;">Collaborative</h3>
+            <p style="color:var(--text-muted);font-size:0.85rem;line-height:1.65;margin:0;">I enjoy working in teams, sharing context, and giving honest feedback on code and ideas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cyan-divider"></div>
+
+  <!-- ── Tech stack ── -->
+  <section class="section-wrap">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-label fade-up">Stack</span>
+        <h2 class="section-title fade-up delay-1">Technologies I work with</h2>
+      </div>
+      <div class="row g-3">
+        <div class="col-sm-6 col-lg-3 fade-up">
+          <div class="glass-card p-4 h-100">
+            <h6 style="font-size:0.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--cyan);margin-bottom:1rem;">Frontend</h6>
+            <div class="d-flex flex-wrap gap-2"><span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">HTML5</span><span class="tag">CSS3</span></div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-up delay-1">
+          <div class="glass-card p-4 h-100">
+            <h6 style="font-size:0.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--cyan);margin-bottom:1rem;">Backend</h6>
+            <div class="d-flex flex-wrap gap-2"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">REST APIs</span><span class="tag">JWT</span></div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-up delay-2">
+          <div class="glass-card p-4 h-100">
+            <h6 style="font-size:0.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--cyan);margin-bottom:1rem;">ML / Data</h6>
+            <div class="d-flex flex-wrap gap-2"><span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">NumPy</span></div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-up delay-3">
+          <div class="glass-card p-4 h-100">
+            <h6 style="font-size:0.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--cyan);margin-bottom:1rem;">DB & Tools</h6>
+            <div class="d-flex flex-wrap gap-2"><span class="tag">MongoDB</span><span class="tag">SQL</span><span class="tag">Git</span><span class="tag">GitHub</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
+    <span>© 2025 Tirth Patel · <a href="https://thepateltirth.com" target="_blank">thepateltirth.com</a></span>
+    <div class="d-flex gap-3">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

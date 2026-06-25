@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tirth Patel — Full-Stack Developer</title>
+  <meta name="description" content="Full-stack developer specializing in React, Node.js, and Python. Building clean, performant web apps and ML systems." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+<div id="cursor-glow"></div>
+
+<!-- ── Navbar ── -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Tirth<span>.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="social.html">Social</a></li>
+        <li class="nav-item ms-lg-2"><a class="nav-link btn-nav-cta" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="padding-top:70px;">
+
+  <!-- ── Hero ── -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+
+        <div class="col-lg-6">
+          <div class="hero-badge fade-up">
+            <span class="status-dot"></span>
+            Available for opportunities
+          </div>
+
+          <h1 class="hero-title fade-up delay-1">
+            Hi, I'm<br>
+            <span class="gradient-text">Tirth Patel</span>
+          </h1>
+
+          <p class="hero-desc fade-up delay-2">
+            <span id="typing-text" data-words='["Full-Stack Developer.", "React Enthusiast.", "Node.js Builder.", "ML Explorer.", "Problem Solver."]'></span><span class="typing-cursor"></span>
+            <br><br>
+            I build end-to-end web apps and intelligent systems — from sleek React UIs to Python ML models.
+          </p>
+
+          <div class="d-flex gap-3 flex-wrap fade-up delay-3">
+            <a href="projects.html" class="btn-cyan">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              View Projects
+            </a>
+            <a href="contact.html" class="btn-ghost">Get in Touch →</a>
+          </div>
+
+          <div class="hero-stats stats-row fade-up delay-4">
+            <div>
+              <span class="stat-num" data-target="2" data-suffix="+">0+</span>
+              <span class="stat-label">Projects shipped</span>
+            </div>
+            <div>
+              <span class="stat-num" data-target="8" data-suffix="+">0+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div>
+              <span class="stat-num" data-target="100" data-suffix="%">0%</span>
+              <span class="stat-label">Committed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-flex justify-content-center fade-right delay-2">
+          <div class="hero-visual">
+            <div class="hero-orb">
+              <div class="hero-orb-inner">👨‍💻</div>
+            </div>
+            <div class="float-chip">⚛️ React</div>
+            <div class="float-chip">🟩 Node.js</div>
+            <div class="float-chip">🐍 Python</div>
+            <div class="float-chip">🧠 TensorFlow</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="cyan-divider"></div>
+
+  <!-- ── Skills grid ── -->
+  <section class="section-wrap">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-label fade-up">Stack</span>
+        <h2 class="section-title fade-up delay-1">What I work with</h2>
+        <p class="section-sub mx-auto fade-up delay-2">A focused set of technologies I use to ship fast, reliable products.</p>
+      </div>
+
+      <div class="row g-3 justify-content-center">
+        <div class="col-4 col-sm-3 col-md-2 fade-up"><div class="skill-card h-100"><span class="skill-icon">⚛️</span><span class="skill-name">React</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-1"><div class="skill-card h-100"><span class="skill-icon">🟨</span><span class="skill-name">JavaScript</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-2"><div class="skill-card h-100"><span class="skill-icon">🟩</span><span class="skill-name">Node.js</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-3"><div class="skill-card h-100"><span class="skill-icon">🚂</span><span class="skill-name">Express</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-4"><div class="skill-card h-100"><span class="skill-icon">🐍</span><span class="skill-name">Python</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-5"><div class="skill-card h-100"><span class="skill-icon">🍃</span><span class="skill-name">MongoDB</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up"><div class="skill-card h-100"><span class="skill-icon">🗄️</span><span class="skill-name">SQL</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-1"><div class="skill-card h-100"><span class="skill-icon">🧠</span><span class="skill-name">TensorFlow</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-2"><div class="skill-card h-100"><span class="skill-icon">🎨</span><span class="skill-name">HTML/CSS</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-3"><div class="skill-card h-100"><span class="skill-icon">🔧</span><span class="skill-name">Git</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-4"><div class="skill-card h-100"><span class="skill-icon">🐙</span><span class="skill-name">GitHub</span></div></div>
+        <div class="col-4 col-sm-3 col-md-2 fade-up delay-5"><div class="skill-card h-100"><span class="skill-icon">📡</span><span class="skill-name">REST APIs</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cyan-divider"></div>
+
+  <!-- ── Featured Projects ── -->
+  <section class="section-wrap">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-end flex-wrap gap-3 mb-5">
+        <div>
+          <span class="section-label fade-up">Work</span>
+          <h2 class="section-title fade-up delay-1">Featured Projects</h2>
+        </div>
+        <a href="projects.html" class="btn-ghost fade-up">See all →</a>
+      </div>
+
+      <div class="row g-4">
+        <!-- SpeedyBites -->
+        <div class="col-md-6 fade-up">
+          <div class="glass-card tilt-card h-100">
+            <div class="project-thumb thumb-speedybites">🍔</div>
+            <div class="project-body">
+              <h3 class="project-title">SpeedyBites</h3>
+              <p class="project-desc">Full-stack food ordering platform with JWT auth, real-time cart, and a Node.js REST API backed by MongoDB.</p>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span>
+              </div>
+              <div class="d-flex gap-2 flex-wrap">
+                <a href="projects.html#speedybites" class="project-link primary">Details</a>
+                <a href="https://github.com/thepateltirth" class="project-link" target="_blank">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FER -->
+        <div class="col-md-6 fade-up delay-2">
+          <div class="glass-card tilt-card h-100">
+            <div class="project-thumb thumb-fer">🧠</div>
+            <div class="project-body">
+              <h3 class="project-title">Facial Emotion Recognition</h3>
+              <p class="project-desc">CNN deep learning model that classifies 7 emotions from facial images in real-time using TensorFlow and OpenCV.</p>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">CNN</span>
+              </div>
+              <div class="d-flex gap-2 flex-wrap">
+                <a href="projects.html#fer" class="project-link primary">Details</a>
+                <a href="https://github.com/thepateltirth" class="project-link" target="_blank">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cyan-divider"></div>
+
+  <!-- ── CTA ── -->
+  <section class="section-wrap">
+    <div class="container">
+      <div class="glass-card p-5 text-center fade-up" style="background: linear-gradient(135deg, var(--bg-card), var(--bg-3)); border-color: var(--cyan-border);">
+        <h2 class="section-title mb-3">Let's build something <span class="gradient-text">together</span></h2>
+        <p class="section-sub mx-auto mb-4">Open to full-time roles, freelance work, and interesting collaborations.</p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <a href="contact.html" class="btn-cyan">Start a conversation →</a>
+          <a href="about.html" class="btn-ghost">Learn about me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ── Footer ── -->
+<footer>
+  <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
+    <span>© 2025 Tirth Patel · <a href="https://thepateltirth.com" target="_blank">thepateltirth.com</a></span>
+    <div class="d-flex gap-3">
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="social.html">Social</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
