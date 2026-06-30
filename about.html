@@ -50,7 +50,15 @@
         <!-- Avatar + quick facts -->
         <div class="col-lg-4 fade-left">
           <div class="d-flex justify-content-center justify-content-lg-start mb-4">
-            <div class="about-avatar">👨‍💻</div>
+            <div class="about-avatar" style="position:relative;">
+              <img src="photo.jpg" alt="Tirth Patel"
+                   onerror="this.style.display='none';document.getElementById('avatar-fallback').style.display='flex';"
+                   style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-lg);position:absolute;inset:0;" />
+              <div id="avatar-fallback" style="display:flex;flex-direction:column;align-items:center;gap:0.5rem;z-index:1;">
+                <span style="font-size:4rem;">👨‍💻</span>
+                <span style="font-size:0.7rem;color:var(--text-dim);text-align:center;padding:0 1rem;">Drop <code>photo.jpg</code> in Portfolio folder</span>
+              </div>
+            </div>
           </div>
           <div class="d-flex flex-column gap-2">
             <a href="mailto:tirthpatel0325@gmail.com" class="info-pill text-decoration-none">
@@ -59,7 +67,7 @@
             </a>
             <div class="info-pill">
               <div class="pill-icon">📍</div>
-              <div><div class="pill-label">Location</div><div class="pill-value">India</div></div>
+              <div><div class="pill-label">Location</div><div class="pill-value">Tooting, London 🇬🇧</div></div>
             </div>
             <div class="info-pill">
               <div class="pill-icon" style="color:#22c55e;">●</div>
