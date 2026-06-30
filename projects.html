@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects — Tirth Patel</title>
-  <meta name="description" content="Projects built by Tirth Patel — SpeedyBites, Facial Emotion Recognition." />
+  <meta name="description" content="Projects by Tirth Patel — SpeedyBites, Facial Emotion Recognition, Sustainable Shopping Assistant." />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
@@ -38,7 +38,7 @@
     <div class="container">
       <span class="section-label fade-up">Portfolio</span>
       <h1 class="hero-title fade-up delay-1">My <span class="gradient-text">Projects</span></h1>
-      <p class="hero-desc fade-up delay-2" style="font-size:1rem;">Things I've designed, built, and shipped — from food-tech platforms to deep learning systems.</p>
+      <p class="hero-desc fade-up delay-2" style="font-size:1rem;">Things I've designed, built, and shipped — from full-stack platforms to deep learning systems.</p>
     </div>
   </div>
 
@@ -48,94 +48,126 @@
       <!-- ── SpeedyBites ── -->
       <div id="speedybites" class="glass-card mb-4 fade-up">
         <div class="row g-0">
-          <div class="col-md-5">
-            <div class="project-thumb thumb-speedybites h-100" style="border-radius: var(--radius-lg) 0 0 var(--radius-lg); min-height:260px; font-size:5rem;">🍔</div>
+          <div class="col-md-4">
+            <div class="project-thumb thumb-speedybites h-100" style="border-radius:var(--radius-lg) 0 0 var(--radius-lg);min-height:240px;font-size:4.5rem;">🍔</div>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-8">
             <div class="p-4 p-lg-5 h-100 d-flex flex-column">
-              <div class="d-flex align-items-center gap-2 mb-3">
-                <h2 style="font-size:1.6rem;font-weight:700;margin:0;">SpeedyBites</h2>
+              <div class="d-flex align-items-center gap-2 flex-wrap mb-3">
+                <h2 style="font-size:1.5rem;font-weight:700;margin:0;">SpeedyBites</h2>
                 <span class="tag">Full-Stack</span>
+                <span class="tag" style="background:rgba(34,197,94,0.1);color:#22c55e;border-color:rgba(34,197,94,0.3);">2024</span>
               </div>
-
-              <p style="color:var(--text-muted);font-size:0.92rem;line-height:1.75;margin-bottom:1.25rem;">
-                A full-stack food ordering web application that lets users browse restaurants, add items to a real-time cart, and place orders seamlessly. Built with a React frontend consuming a Node.js + Express REST API, backed by MongoDB for persistent data storage.
-              </p>
-
-              <h6 style="font-size:0.72rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-dim);margin-bottom:0.75rem;">Key Features</h6>
-              <ul style="color:var(--text-muted);font-size:0.88rem;line-height:1.9;list-style:none;padding:0;margin-bottom:1.5rem;">
-                <li>✦ &nbsp;JWT-based user authentication & session management</li>
-                <li>✦ &nbsp;Real-time cart with quantity controls and order summary</li>
+              <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.75;margin-bottom:1rem;">A full-stack food ordering web application featuring user authentication, product catalogue, and order management. Built with a React.js frontend and a Node.js/Express REST API, backed by MongoDB for data persistence.</p>
+              <ul style="color:var(--text-muted);font-size:0.85rem;line-height:1.9;list-style:none;padding:0;margin-bottom:1.25rem;">
+                <li>✦ &nbsp;JWT-based authentication & session management</li>
+                <li>✦ &nbsp;Real-time cart with quantity controls & order summary</li>
                 <li>✦ &nbsp;RESTful API with full CRUD for menus and orders</li>
-                <li>✦ &nbsp;MongoDB + Mongoose for structured document storage</li>
-                <li>✦ &nbsp;Mobile-first responsive UI</li>
+                <li>✦ &nbsp;Responsive UI with attention to usability across devices</li>
               </ul>
-
               <div class="d-flex flex-wrap gap-2 mb-4">
-                <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span>
-                <span class="tag">MongoDB</span><span class="tag">JWT</span><span class="tag">REST API</span>
+                <span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">MongoDB</span><span class="tag">JWT</span><span class="tag">Bootstrap</span>
               </div>
-
               <div class="d-flex gap-2 flex-wrap mt-auto">
-                <a href="https://github.com/thepateltirth" class="btn-cyan" target="_blank" rel="noopener" style="font-size:0.85rem;padding:0.55rem 1.1rem;">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                  GitHub
-                </a>
-                <a href="#" class="btn-ghost" style="font-size:0.85rem;padding:0.55rem 1.1rem;">Live Demo ↗</a>
+                <a href="https://github.com/thepateltirth" class="btn-cyan" target="_blank" style="font-size:0.82rem;padding:0.5rem 1rem;">GitHub ↗</a>
+                <a href="#" class="btn-ghost" style="font-size:0.82rem;padding:0.5rem 1rem;">Live Demo ↗</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- ── FER ── -->
+      <!-- ── Facial Emotion Recognition ── -->
       <div id="fer" class="glass-card mb-4 fade-up delay-1">
         <div class="row g-0">
-          <div class="col-md-5 order-md-2">
-            <div class="project-thumb thumb-fer h-100" style="border-radius: 0 var(--radius-lg) var(--radius-lg) 0; min-height:260px; font-size:5rem;">🧠</div>
+          <div class="col-md-4 order-md-2">
+            <div class="project-thumb thumb-fer h-100" style="border-radius:0 var(--radius-lg) var(--radius-lg) 0;min-height:240px;font-size:4.5rem;">🧠</div>
           </div>
-          <div class="col-md-7 order-md-1">
+          <div class="col-md-8 order-md-1">
             <div class="p-4 p-lg-5 h-100 d-flex flex-column">
-              <div class="d-flex align-items-center gap-2 mb-3">
-                <h2 style="font-size:1.6rem;font-weight:700;margin:0;">Facial Emotion Recognition</h2>
-                <span class="tag">ML / AI</span>
+              <div class="d-flex align-items-center gap-2 flex-wrap mb-3">
+                <h2 style="font-size:1.5rem;font-weight:700;margin:0;">Facial Emotion Recognition</h2>
+                <span class="tag">AI / ML</span>
+                <span class="tag" style="background:rgba(34,197,94,0.1);color:#22c55e;border-color:rgba(34,197,94,0.3);">Final Year Project</span>
               </div>
-
-              <p style="color:var(--text-muted);font-size:0.92rem;line-height:1.75;margin-bottom:1.25rem;">
-                A deep learning system that classifies human emotions from facial images using a Convolutional Neural Network. Trained on the FER-2013 dataset, the model distinguishes 7 emotional states in real-time — suitable for accessibility tools, interactive apps, and research.
-              </p>
-
-              <h6 style="font-size:0.72rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-dim);margin-bottom:0.75rem;">Key Features</h6>
-              <ul style="color:var(--text-muted);font-size:0.88rem;line-height:1.9;list-style:none;padding:0;margin-bottom:1.5rem;">
-                <li>✦ &nbsp;CNN with Conv2D + MaxPooling + Dropout layers</li>
+              <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.75;margin-bottom:1rem;">Designed and trained a 3-block Convolutional Neural Network from scratch to classify facial expressions across 7 emotion categories. Trained on the FER-2013 dataset (35k+ images) with real-time inference via webcam.</p>
+              <ul style="color:var(--text-muted);font-size:0.85rem;line-height:1.9;list-style:none;padding:0;margin-bottom:1.25rem;">
+                <li>✦ &nbsp;3-block CNN: Conv2D + MaxPooling + Dropout layers</li>
                 <li>✦ &nbsp;Classifies 7 emotions: angry, disgust, fear, happy, sad, surprise, neutral</li>
-                <li>✦ &nbsp;Data augmentation for better generalization</li>
-                <li>✦ &nbsp;Real-time inference via webcam using OpenCV</li>
-                <li>✦ &nbsp;Trained on FER-2013 (35k+ images)</li>
+                <li>✦ &nbsp;Data augmentation for better generalisation on unseen faces</li>
+                <li>✦ &nbsp;Real-time webcam inference using OpenCV</li>
+                <li>✦ &nbsp;Model benchmarking & validation pipeline documented</li>
               </ul>
-
               <div class="d-flex flex-wrap gap-2 mb-4">
-                <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">Keras</span>
-                <span class="tag">CNN</span><span class="tag">OpenCV</span><span class="tag">NumPy</span>
+                <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">CNN</span><span class="tag">OpenCV</span><span class="tag">NumPy</span>
               </div>
-
               <div class="d-flex gap-2 flex-wrap mt-auto">
-                <a href="https://github.com/thepateltirth" class="btn-cyan" target="_blank" rel="noopener" style="font-size:0.85rem;padding:0.55rem 1.1rem;">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                  GitHub
-                </a>
+                <a href="https://github.com/thepateltirth" class="btn-cyan" target="_blank" style="font-size:0.82rem;padding:0.5rem 1rem;">GitHub ↗</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- ── More coming ── -->
-      <div class="glass-card p-5 text-center fade-up delay-2" style="border-style:dashed;">
-        <div style="font-size:2.5rem;margin-bottom:0.75rem;">🚀</div>
-        <h3 style="font-weight:600;margin-bottom:0.4rem;">More projects coming soon</h3>
-        <p style="color:var(--text-muted);font-size:0.88rem;">Check back or follow my GitHub for updates.</p>
-        <a href="https://github.com/thepateltirth" class="btn-ghost mt-3" target="_blank" rel="noopener">Follow on GitHub ↗</a>
+      <!-- ── Sustainable Shopping Assistant ── -->
+      <div id="shopping" class="glass-card mb-4 fade-up delay-2">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class="project-thumb h-100" style="background:linear-gradient(135deg,#051a10,#0a3020);border-radius:var(--radius-lg) 0 0 var(--radius-lg);min-height:240px;font-size:4.5rem;">🛒</div>
+          </div>
+          <div class="col-md-8">
+            <div class="p-4 p-lg-5 h-100 d-flex flex-column">
+              <div class="d-flex align-items-center gap-2 flex-wrap mb-3">
+                <h2 style="font-size:1.5rem;font-weight:700;margin:0;">Sustainable Shopping Assistant</h2>
+                <span class="tag">Full-Stack</span>
+                <span class="tag" style="background:rgba(250,204,21,0.1);color:#facc15;border-color:rgba(250,204,21,0.3);">🏆 Hackathon</span>
+                <span class="tag" style="background:rgba(34,197,94,0.1);color:#22c55e;border-color:rgba(34,197,94,0.3);">2023</span>
+              </div>
+              <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.75;margin-bottom:1rem;">A full-stack web application integrating a product recommendation engine and Stripe payment API. Built end-to-end — from concept and architecture to a working integrated application. Presented and assessed at a hackathon.</p>
+              <ul style="color:var(--text-muted);font-size:0.85rem;line-height:1.9;list-style:none;padding:0;margin-bottom:1.25rem;">
+                <li>✦ &nbsp;Sustainable product recommendation engine</li>
+                <li>✦ &nbsp;Stripe API integration for secure payments</li>
+                <li>✦ &nbsp;Full-stack React.js + Node.js architecture</li>
+                <li>✦ &nbsp;Hackathon project — presented & assessed</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">Stripe API</span>
+              </div>
+              <div class="d-flex gap-2 flex-wrap mt-auto">
+                <a href="https://github.com/thepateltirth" class="btn-cyan" target="_blank" style="font-size:0.82rem;padding:0.5rem 1rem;">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Placeholder 1 ── -->
+      <div class="glass-card mb-4 fade-up delay-3" style="border-style:dashed;">
+        <div class="p-4 p-lg-5 d-flex align-items-center gap-4 flex-wrap">
+          <div style="width:80px;height:80px;border-radius:var(--radius-lg);background:var(--bg-3);border:1px dashed var(--cyan-border);display:flex;align-items:center;justify-content:center;font-size:2rem;flex-shrink:0;">🔨</div>
+          <div>
+            <div class="d-flex align-items-center gap-2 mb-1">
+              <h3 style="font-size:1.1rem;font-weight:700;margin:0;">Project in Progress</h3>
+              <span class="tag" style="background:rgba(251,146,60,0.1);color:#fb923c;border-color:rgba(251,146,60,0.3);">Coming Soon</span>
+            </div>
+            <p style="color:var(--text-dim);font-size:0.85rem;margin:0;">Currently building something new — check back soon or follow my GitHub for updates.</p>
+          </div>
+          <a href="https://github.com/thepateltirth" class="btn-ghost ms-auto" target="_blank" style="font-size:0.82rem;padding:0.5rem 1rem;white-space:nowrap;">Follow on GitHub ↗</a>
+        </div>
+      </div>
+
+      <!-- ── Placeholder 2 ── -->
+      <div class="glass-card fade-up delay-4" style="border-style:dashed;">
+        <div class="p-4 p-lg-5 d-flex align-items-center gap-4 flex-wrap">
+          <div style="width:80px;height:80px;border-radius:var(--radius-lg);background:var(--bg-3);border:1px dashed var(--cyan-border);display:flex;align-items:center;justify-content:center;font-size:2rem;flex-shrink:0;">🚀</div>
+          <div>
+            <div class="d-flex align-items-center gap-2 mb-1">
+              <h3 style="font-size:1.1rem;font-weight:700;margin:0;">MSc Dissertation Project</h3>
+              <span class="tag" style="background:rgba(251,146,60,0.1);color:#fb923c;border-color:rgba(251,146,60,0.3);">In Progress</span>
+            </div>
+            <p style="color:var(--text-dim);font-size:0.85rem;margin:0;">AI/ML application in financial markets — details to be published upon completion.</p>
+          </div>
+        </div>
       </div>
 
     </div>
